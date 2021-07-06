@@ -1,0 +1,107 @@
+/* * {
+  /* color: pink; */
+  /* background-color: cyan;
+} */ */
+
+body {
+  background-color: #CEBBC9;
+}
+
+button {
+  font-size: 30px;
+  background-color: #CE6D8B;
+}
+
+h1, h2 {
+  color: #4056F4;
+}
+
+#signup {
+  background-color: #470FF4;
+  color: #CEBBC9;
+}
+
+span {
+  color: #CE6D8B;
+}
+
+.tag {
+  font-size: 16px;
+  background-color: #4056F4;
+}
+
+.post a {
+  color: #CE6D8B;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+footer a {
+  color: red;
+}
+
+/* Adjacent Selector Example */
+/* input + button {
+  background-color: pink;
+} */
+
+h2 + button {
+  font-size: 20px;
+  /* background-color: magenta; */
+}
+
+footer > a {
+  color:blueviolet;
+}
+
+input[type="password"] {
+  color: greenyellow;
+}
+
+/* You can also use section.post  */
+section[class="post"] {
+  background-color: indigo;
+}
+
+a[href*="google"] {
+  color: magenta;
+}
+
+.post button:hover {
+  background-color: #0D1821;
+  color: #F0F4EF;
+}
+
+.post button:active {
+  background-color: cyan;
+}
+
+.post:nth-of-type(2n) {
+  background-color: #BFCC94;
+}
+
+h2::first-letter {
+  font-size: 50px;
+}
+
+p::first-line {
+  color: purple;
+}
+
+p::selection {
+  background-color: red;
+  color: white;
+}
+
+button:hover {
+  background-color: olive;
+  /* font-size: 10px; */
+}
+
+button {
+  background-color: magenta !important;
+}
